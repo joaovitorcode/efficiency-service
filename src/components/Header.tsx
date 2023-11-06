@@ -11,7 +11,7 @@ export function Header() {
 
   return (
     <header className="w-full bg-main fixed z-50 top-0">
-      <div className="relative max-w-5xl mx-auto flex justify-end md:justify-center py-6 px-4 lg:px-0">
+      <div className="relative max-w-7xl mx-auto flex justify-end md:justify-center py-6 px-4 lg:px-0">
         <Link
           href="/"
           className="absolute top-0 left-4 lg:left-0 z-10 w-36 lg:w-40 rounded-b-3xl bg-white flex justify-center items-center py-4 px-6 shadow-lg"
@@ -21,6 +21,7 @@ export function Header() {
             alt="Logotipo da Efficiency Service"
             width={0}
             height={0}
+            priority
             sizes="100vw"
             className="w-full"
           />
