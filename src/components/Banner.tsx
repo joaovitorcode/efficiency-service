@@ -2,7 +2,7 @@ export function Banner() {
   return (
     <section className="relative w-full h-[calc(100vh-72px)] md:h-[calc(100vh-76px)] lg:h-[calc(100vh-80px)] flex justify-center items-center">
       <video preload="auto" playsInline autoPlay muted loop className="w-full h-full object-cover">
-        <source src="/video_2.mp4" type="video/mp4" />
+        <source src="/video.mp4" type="video/mp4" />
       </video>
       <div className="absolute w-full h-full bg-main opacity-80" />
       
