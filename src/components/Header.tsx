@@ -7,7 +7,7 @@ import { DropdownMenu } from "@/components/DropdownMenu"
 import { AccordeonMenu } from "@/components/AccordeonMenu"
 
 export function Header() {
-  const [showNav, setShowNav] = useState(true)
+  const [showNav, setShowNav] = useState(false)
 
   return (
     <header className="w-full bg-main fixed z-50 top-0">
