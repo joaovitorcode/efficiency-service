@@ -67,16 +67,16 @@ export function Header() {
 
         <div className="md:absolute md:top-0 md:right-4 lg:right-0 z-10 h-full flex gap-4 lg:gap-6 items-center">
           <a href="#">
-            <BsFacebook className="w-6 h-6 text-white hover:text-second" />
+            <BsFacebook className="w-5 sm:w-6 h-5 sm:h-6 text-white hover:text-second" />
           </a>
           <a href="#">
-            <BsInstagram className="w-6 h-6 text-white hover:text-second" />
+            <BsInstagram className="w-5 sm:w-6 h-5 sm:h-6 text-white hover:text-second" />
           </a>
           <a href="#">
-            <BsWhatsapp className="w-6 h-6 text-white hover:text-second" />
+            <BsWhatsapp className="w-5 sm:w-6 h-5 sm:h-6 text-white hover:text-second" />
           </a>
           <a href="#">
-            <BsLinkedin className="w-6 h-6 text-white hover:text-second" />
+            <BsLinkedin className="w-5 sm:w-6 h-5 sm:h-6 text-white hover:text-second" />
           </a>
         </div>
 
