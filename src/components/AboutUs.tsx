@@ -15,6 +15,7 @@ export function AboutUs() {
               alt=""
               width={0}
               height={0}
+              priority
               sizes="100vw"
               className="md:absolute left-12 top-16 lg:-top-12 w-full h-full lg:h-auto object-contain"
             />
