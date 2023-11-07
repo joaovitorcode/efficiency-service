@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 html {
-  @apply scroll-pt-[80px]
+  @apply scroll-pt-[80px];
+  @apply bg-gray-100;
 }
