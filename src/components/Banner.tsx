@@ -13,7 +13,7 @@ export function Banner() {
         <p className="text-white text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
-        <button className="mx-auto bg-second text-main font-bold py-4 px-16 uppercase">
+        <button className="mx-auto bg-second text-main font-bold py-4 px-16 uppercase rounded-md">
           Fale Conosco
         </button>
       </div>

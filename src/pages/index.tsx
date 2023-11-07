@@ -5,6 +5,7 @@ import { Services } from "@/components/Services"
 import { OurBlog } from "@/components/OurBlog"
 import { Segments } from "@/components/Segments"
 import { Testimonials } from "@/components/Testimonials"
+import { Contact } from "@/components/Contact"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <OurBlog />
         <Segments />
         <Testimonials />
+        <Contact />
       </div>
     </>
   )

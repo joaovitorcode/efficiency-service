@@ -30,7 +30,7 @@ export function AboutUs() {
             <p className="text-base lg:text-lg text-justify">
               Para quem deseja concentrar as habilidades da mão-de-obra em sua própria área de atuação. A Efficiency Service surge como uma alternativa viável para a prestação desses serviços seculares.
             </p>
-            <button className="mr-auto bg-second text-main font-bold py-2 px-8 uppercase">
+            <button className="mr-auto bg-second text-main font-bold py-2 px-8 uppercase rounded-md">
               Fale Conosco
             </button>
           </div>

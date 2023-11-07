@@ -33,7 +33,7 @@ export function Testimonials() {
     <section className="w-full flex justify-center">
       <div className="w-full max-w-5xl py-12">
         <h2 className="text-5xl font-bold text-main text-center uppercase mb-12">
-          Segmentos
+          Depoimentos
         </h2>
 
         <Slider {...settings} className="max-w-5xl mx-6">
