@@ -3,6 +3,7 @@ import { Banner } from "@/components/Banner"
 import { AboutUs } from "@/components/AboutUs"
 import { Services } from "@/components/Services"
 import { OurBlog } from "@/components/OurBlog"
+import { Segments } from "@/components/Segments"
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <AboutUs />
         <Services />
         <OurBlog />
+        <Segments />
       </div>
     </>
   )

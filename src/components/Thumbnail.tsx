@@ -34,7 +34,7 @@ export function Thumbnail() {
           Tema
         </p>
         <h2 className="font-bold text-gray-900 hover:text-main line-clamp-2">
-          Título
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas turpis magna, porttitor quis orci eu, euismod sollicitudin massa. Vestibulum volutpat risus at luctus ultricies.
         </h2>
         <div className="flex items-center gap-1">
           <Image
