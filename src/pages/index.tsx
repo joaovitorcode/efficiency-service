@@ -7,6 +7,7 @@ import { Segments } from "@/components/Segments"
 import { Testimonials } from "@/components/Testimonials"
 import { Contact } from "@/components/Contact"
 import { FAQ } from "@/components/FAQ"
+import { Footer } from "@/components/Footer"
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Testimonials />
         <Contact />
         <FAQ />
+        <Footer />
       </div>
     </>
   )
