@@ -9,7 +9,7 @@ interface Item {
 }
 
 interface Props {
-  menu: Item
+  menu: string
   items: Item[]
 }
 
@@ -23,12 +23,12 @@ export function AccordeonMenu({ menu, items }: Props) {
   return (
     <div className="w-full hover:bg-second">
       <div className="w-full flex justify-between items-center">
-        <Link
-          href={menu.href}
-          className={`w-full text-xl text-main font-bold p-6`}
+        <span
+          onClick={handleItems}
+          className="w-full text-xl text-main font-bold p-5 cursor-pointer"
         >
-          {menu.value}
-        </Link>
+          {menu}
+        </span>
         <MdArrowDropDownCircle
           onClick={handleItems}
           className="absolute right-4 w-8 h-8 text-main cursor-pointer"

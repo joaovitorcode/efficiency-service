@@ -8,7 +8,7 @@ interface Item {
 }
 
 interface Props {
-  menu: Item
+  menu: string
   items: Item[]
 }
 
@@ -29,12 +29,9 @@ export function DropdownMenu({ menu, items }: Props) {
       onMouseLeave={handleMouseLeave}
       className="relative inline-block text-left group"
     >
-      <Link
-        href={menu.href}
-        className={`text-xl lg:text-2xl py-2 text-white group-hover:text-second font-bold`}
-      >
-        {menu.value}
-      </Link>
+      <span className="text-xl lg:text-2xl py-2 text-white group-hover:text-second font-bold cursor-default">
+        {menu}
+      </span>
 
       {isSubMenuVisible && (
         <div className="absolute -left-4 mt-2 w-64 rounded-[8px] shadow-lg bg-white">

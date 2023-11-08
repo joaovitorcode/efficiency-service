@@ -32,35 +32,34 @@ export function Header() {
             Empresa
           </Link>
           <DropdownMenu
-            menu={{ value: "Serviços", href: "" }}
+            menu="Serviços"
             items={[
-              { value: "Segurança Patrimonial", href: "" },
-              { value: "Portaria e Controle de Acesso", href: "" },
-              { value: "Segurança Eletrônica", href: "" },
-              { value: "Facilities", href: "" },
-              { value: "Outros Serviços", href: "" }
+              { value: "Segurança Patrimonial", href: "/servicos/seguranca-patrimonial" },
+              { value: "Portaria e Controle de Acesso", href: "/servicos/portaria-e-controle-de-acesso" },
+              { value: "Segurança Eletrônica", href: "/servicos/seguranca-eletronica" },
+              { value: "Facilities", href: "/servicos/facilities/" },
+              { value: "Outros Serviços", href: "/servicos/outros-servicos" }
             ]}
           />
           <DropdownMenu
-            menu={{ value: "Segmentos", href: "" }}
+            menu="Segmentos"
             items={[
-              { value: "Condomínios", href: "" },
-              { value: "Shoppings e Varejo", href: "" },
-              { value: "Transporte e Logística", href: "" },
-              { value: "Saúde", href: "" },
-              { value: "Educação", href: "" },
-              { value: "Indústria", href: "" },
-              { value: "Agronegócios", href: "" },
-              { value: "Grandes Eventos", href: "" }
+              { value: "Condomínios", href: "/segmentos/condominios" },
+              { value: "Shoppings e Varejo", href: "/segmentos/shoppings-e-varejo" },
+              { value: "Transporte e Logística", href: "/segmentos/transporte-e-logistica" },
+              { value: "Saúde", href: "/segmentos/saude" },
+              { value: "Educação", href: "/segmentos/educacao" },
+              { value: "Indústria", href: "/segmentos/industria" },
+              { value: "Agronegócios", href: "/segmentos/agronegocios" },
             ]}
           />
           <DropdownMenu
-            menu={{ value: "Contato", href: "" }}
+            menu="Contato"
             items={[
-              { value: "Fale Conosco", href: "" },
-              { value: "Solicite uma Cotação", href: "" },
-              { value: "Trabalhe Conosco", href: "" },
-              { value: "Seja Nosso Parceiro", href: "" },
+              { value: "Fale Conosco", href: "/contato/fale-conosco" },
+              { value: "Solicite uma Cotação", href: "/contato/solicite-uma-cotação" },
+              { value: "Trabalhe Conosco", href: "/contato/trabalhe-conosco" },
+              { value: "Seja Nosso Parceiro", href: "/contato/seja-nosso-parceiro" },
             ]}
           />
         </nav>
@@ -87,40 +86,39 @@ export function Header() {
           <MdMenu className="w-6 h-6 text-white" />
         </button>
       </div>
-      {showNav && <nav className="md:hidden w-full bg-white flex flex-col">
-        <Link className={`text-xl text-main hover:bg-second font-bold p-6`} href="/servicos">
+      {showNav && <nav className="md:hidden w-full bg-white flex flex-col shadow-md">
+        <Link className={`text-xl text-main hover:bg-second font-bold p-6`} href="/">
           Empresa
         </Link>
         <AccordeonMenu
-          menu={{ value: "Serviços", href: "" }}
+          menu="Serviços"
           items={[
-            { value: "Segurança Patrimonial", href: "" },
-            { value: "Portaria e Controle de Acesso", href: "" },
-            { value: "Segurança Eletrônica", href: "" },
-            { value: "Facilities", href: "" },
-            { value: "Outros Serviços", href: "" },
+            { value: "Segurança Patrimonial", href: "/servicos/seguranca-patrimonial" },
+            { value: "Portaria e Controle de Acesso", href: "/servicos/portaria-e-controle-de-acesso" },
+            { value: "Segurança Eletrônica", href: "/servicos/seguranca-eletronica" },
+            { value: "Facilities", href: "/servicos/facilities/" },
+            { value: "Outros Serviços", href: "/servicos/outros-servicos" },
           ]}
         />
         <AccordeonMenu
-          menu={{ value: "Segmentos", href: "" }}
+          menu="Segmentos"
           items={[
-            { value: "Condomínios", href: "" },
-            { value: "Shoppings e Varejo", href: "" },
-            { value: "Transporte e Logística", href: "" },
-            { value: "Saúde", href: "" },
-            { value: "Educação", href: "" },
-            { value: "Indústria", href: "" },
-            { value: "Agronegócios", href: "" },
-            { value: "Grandes Eventos", href: "" },
+            { value: "Condomínios", href: "/segmentos/condominios" },
+            { value: "Shoppings e Varejo", href: "/segmentos/shoppings-e-varejo" },
+            { value: "Transporte e Logística", href: "/segmentos/transporte-e-logistica" },
+            { value: "Saúde", href: "/segmentos/saude" },
+            { value: "Educação", href: "/segmentos/educacao" },
+            { value: "Indústria", href: "/segmentos/industria" },
+            { value: "Agronegócios", href: "/segmentos/agronegocios" },
           ]}
         />
         <AccordeonMenu
-          menu={{ value: "Contato", href: "" }}
+          menu="Contatos"
           items={[
-            { value: "Fale Conosco", href: "" },
-            { value: "Solicite uma Cotação", href: "" },
-            { value: "Trabalhe Conosco", href: "" },
-            { value: "Seja Nosso Parceiro", href: "" },
+            { value: "Fale Conosco", href: "/contato/fale-conosco" },
+            { value: "Solicite uma Cotação", href: "/contato/solicite-uma-cotação" },
+            { value: "Trabalhe Conosco", href: "/contato/trabalhe-conosco" },
+            { value: "Seja Nosso Parceiro", href: "/contato/seja-nosso-parceiro" },
           ]}
         />
       </nav>}
