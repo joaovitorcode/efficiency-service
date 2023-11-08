@@ -1,6 +1,6 @@
 import { Header } from "@/components/Header"
 import { Footer } from "@/components/Footer"
-import { BannerTemplate } from "@/components/BannerTemplate"
+import { BannerServices } from "@/components/BannerServices"
 import { Topic } from "@/components/Topic"
 
 export default function SegurancaPatrimonial() {
@@ -32,7 +32,7 @@ export default function SegurancaPatrimonial() {
     <>
       <Header />
       <div className="relative top-[72px] md:top-[76px] lg:top-[80px]">
-        <BannerTemplate banner={{
+        <BannerServices banner={{
           image: { src: "/example.jpg", alt: "" },
           title: "Segurança Patrimonial",
           caption: "Soluções Completas, Customizadas e Eficientes",

@@ -16,7 +16,7 @@ interface Props {
   }
 }
 
-export function BannerTemplate({ banner }: Props) {
+export function BannerServices({ banner }: Props) {
   return (
     <section className="relative w-full h-[512px] flex justify-center items-center mb-[512px] md:mb-24">
       <Image
@@ -43,11 +43,11 @@ export function BannerTemplate({ banner }: Props) {
       </div>
 
       <div className="absolute top-[408px] md:-bottom-24 w-full max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-12 px-4 lg:px-0">
-        {banner.infoboxes.map((infoboxe) => (
-          <div key={infoboxe.title} className="w-full md:aspect-video bg-white hover:bg-second rounded-md shadow-md flex flex-col gap-6 justify-center items-center py-8 px-6">
-            <CMSIcon icon={infoboxe.iconSVG} />
+        {banner.infoboxes.map((infobox) => (
+          <div key={infobox.title} className="w-full md:aspect-video bg-white hover:bg-second rounded-md shadow-md flex flex-col gap-6 justify-center items-center py-8 px-6">
+            <CMSIcon icon={infobox.iconSVG} />
             <p className="text-xl text-center uppercase text-main">
-              {infoboxe.title}
+              {infobox.title}
             </p>
           </div>
         ))}
