@@ -21,7 +21,7 @@ interface Props {
 
 export function BannerSegments({ banner }: Props) {
   return (
-    <section className="relative w-full h-[512px] flex justify-center items-center mb-[512px] md:mb-[240px] lg:mb-[288px]">
+    <section className="relative w-full h-[512px] flex justify-center items-center mb-[512px] md:mb-[288px]">
       <Image
         src={banner.image.src}
         alt={banner.image.alt}
@@ -47,7 +47,7 @@ export function BannerSegments({ banner }: Props) {
 
       <div className="absolute top-[408px] md:-bottom-24 w-full max-w-5xl px-4 lg:px-0">
         <div className="col-span-3 bg-white rounded-md shadow-md grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
-          <div className="flex flex-col gap-6 p-2 lg:p-12">
+          <div className="flex flex-col gap-6 p-2 lg:p-8">
             <p className="text-2xl font-bold uppercase text-main">
               {banner.infobox.title}
             </p>
