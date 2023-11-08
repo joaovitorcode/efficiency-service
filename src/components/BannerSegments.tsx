@@ -8,7 +8,7 @@ interface Props {
     }
     title: string
     caption: string
-    infoboxe: {
+    infobox: {
       image: {
         src: string
         alt: string
@@ -49,15 +49,15 @@ export function BannerSegments({ banner }: Props) {
         <div className="col-span-3 bg-white rounded-md shadow-md grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
           <div className="flex flex-col gap-6 p-2 lg:p-12">
             <p className="text-2xl font-bold uppercase text-main">
-              {banner.infoboxe.title}
+              {banner.infobox.title}
             </p>
             <p className="text-lg text-gray-600 leading-8">
-              {banner.infoboxe.description}
+              {banner.infobox.description}
             </p>
           </div>
           <Image
-            src={banner.infoboxe.image.src}
-            alt={banner.infoboxe.image.alt}
+            src={banner.infobox.image.src}
+            alt={banner.infobox.image.alt}
             width={0}
             height={0}
             priority
