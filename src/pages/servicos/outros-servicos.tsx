@@ -3,28 +3,33 @@ import { Footer } from "@/components/Footer"
 import { BannerTemplate } from "@/components/BannerTemplate"
 import { Topic } from "@/components/Topic"
 
-export default function Facilities() {
+export default function OutrosServicos() {
   const iconSVG = `<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"></path></svg>`
   const topics = [
     {
       image: { src: "/example.jpg", alt: "" },
-      title: "Recepção e Atendimento",
-      description: "Eficiência e gentileza ao atender o público de sua empresa. A reputação de sua marca e a experiência do cliente levadas a sério pelos profissionais do Grupo Efficiency Service."
+      title: "Consultoria em Segurança",
+      description: "O Grupo Efficiency Service conta com uma equipe multidisciplinar de consultores com a experiência necessária para criar planos que atendam às necessidades e especificidades de cada cliente."
     },
     {
       image: { src: "/example.jpg", alt: "" },
-      title: "Limpeza e Conservação",
-      description: "Os serviços de asseio, conservação e limpeza colaboram para a sensação de bem-estar e saúde das pessoas de uma empresa, instituição, prédio, condomínio residencial ou comercial."
+      title: "Inteligência de Segurança",
+      description: "Investigação e Análise de risco estão dentro da gama de soluções do Grupo Efficiency Service, com diagnósticos e avaliações das mais diversas situações, sempre com discrição e cuidados necessários."
     },
     {
       image: { src: "/example.jpg", alt: "" },
-      title: "Manutenção",
-      description: "Confiabilidade e segurança da infraestrutura de sua empresa ou condomínio, com planejamento dos procedimentos e utilização de novas e modernas tecnologias e processos."
+      title: "Brigada de Incêndio",
+      description: "Rápido atendimento em intercorrências, incluindo riscos de explosões, incêndios, desabamentos ou outros acidentes."
     },
     {
       image: { src: "/example.jpg", alt: "" },
-      title: "Outros Facilities",
-      description: "São serviços aprovados pelos clientes e reconhecidos pelo mercado que tornaram a marca uma referência no Brasil."
+      title: "Segurança Pessoal",
+      description: "O Grupo Efficiency Service também oferece o serviço de segurança pessoal com ações preventivas, defensivas e planejadas, evitando a aproximação de estranhos e riscos que possam ocorrer ao cliente."
+    },
+    {
+      image: { src: "/example.jpg", alt: "" },
+      title: "Soluções Diversas",
+      description: "Profissionais preparados para realização de verificação analítica de possíveis riscos do ambiente e estratégias para minimização de acidentes."
     },
   ]
 
@@ -34,12 +39,12 @@ export default function Facilities() {
       <div className="relative top-[72px] md:top-[76px] lg:top-[80px]">
         <BannerTemplate banner={{
           image: { src: "/example.jpg", alt: "" },
-          title: "Facilities",
-          caption: "A primeira impressão é muito importante",
+          title: "Outros Serviços Efficiency Service",
+          caption: "Soluções Completas, Customizadas e Eficientes",
           infoboxes: [
-            { title: "Facilities para Indústrias", iconSVG },
-            { title: "Facilities para Condomínios", iconSVG },
-            { title: "Facilities para outros segmentos", iconSVG },
+            { title: "Segurança e Serviços para Indústrias", iconSVG },
+            { title: "Segurança e Serviços para Condomínios", iconSVG },
+            { title: "Segurança e Serviços para Outros Segmentos", iconSVG },
           ]
         }} />
         <main className="max-w-5xl mx-auto py-12 px-4 xl:px-0">
