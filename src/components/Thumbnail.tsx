@@ -43,7 +43,7 @@ export function Thumbnail() {
             width={0}
             height={0}
             sizes="100vw"
-            className="w-6 h-6"
+            className="w-6 h-6 rounded-full shadow"
           />
           <p className="text-gray-900">
             Efficiency Service
